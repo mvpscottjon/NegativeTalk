@@ -1,0 +1,6 @@
+framework module Pods_NegativeTalkTests {
+  umbrella header "Pods-NegativeTalkTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5107F29D4515FC07654EB8E4 /* Pods_NegativeTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B68880DB63BA7E14BBF1157 /* Pods_NegativeTalk.framework */; };
+		9AD364F328AC0ABA008A6E4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD364F228AC0ABA008A6E4E /* AppDelegate.swift */; };
+		9AD364F528AC0ABA008A6E4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD364F428AC0ABA008A6E4E /* SceneDelegate.swift */; };
+		9AD364F728AC0ABA008A6E4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD364F628AC0ABA008A6E4E /* ViewController.swift */; };
+		9AD364FA28AC0ABA008A6E4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD364F828AC0ABA008A6E4E /* Main.storyboard */; };
+		9AD364FC28AC0ABB008A6E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AD364FB28AC0ABB008A6E4E /* Assets.xcassets */; };
+		9AD364FF28AC0ABB008A6E4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD364FD28AC0ABB008A6E4E /* LaunchScreen.storyboard */; };
+		9AD3650A28AC0ABB008A6E4E /* NegativeTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD3650928AC0ABB008A6E4E /* NegativeTalkTests.swift */; };
+		9AD3651428AC0ABB008A6E4E /* NegativeTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD3651328AC0ABB008A6E4E /* NegativeTalkUITests.swift */; };
+		9AD3651628AC0ABB008A6E4E /* NegativeTalkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD3651528AC0ABB008A6E4E /* NegativeTalkUITestsLaunchTests.swift */; };
+		B576289EC9BAFD19BA6548EB /* Pods_NegativeTalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD820466EA009BDF011A34 /* Pods_NegativeTalkTests.framework */; };
+		BA2FB813501A4B46806B4F32 /* Pods_NegativeTalk_NegativeTalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E6F8054B6EE1958FCC22D1 /* Pods_NegativeTalk_NegativeTalkUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AD3650628AC0ABB008A6E4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AD364E728AC0ABA008A6E4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AD364EE28AC0ABA008A6E4E;
+			remoteInfo = NegativeTalk;
+		};
+		9AD3651028AC0ABB008A6E4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AD364E728AC0ABA008A6E4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AD364EE28AC0ABA008A6E4E;
+			remoteInfo = NegativeTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F456F12A31D5D9754437E3D /* Pods-NegativeTalk-NegativeTalkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NegativeTalk-NegativeTalkUITests.release.xcconfig"; path = "Target Support Files/Pods-NegativeTalk-NegativeTalkUITests/Pods-NegativeTalk-NegativeTalkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2841BF3E8690C0E00314F65F /* Pods-NegativeTalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NegativeTalkTests.release.xcconfig"; path = "Target Support Files/Pods-NegativeTalkTests/Pods-NegativeTalkTests.release.xcconfig"; sourceTree = "<group>"; };
+		2B68880DB63BA7E14BBF1157 /* Pods_NegativeTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NegativeTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA46EB50B61B28AD0331B91 /* Pods-NegativeTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NegativeTalk.debug.xcconfig"; path = "Target Support Files/Pods-NegativeTalk/Pods-NegativeTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		3DAD820466EA009BDF011A34 /* Pods_NegativeTalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NegativeTalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD3FC632D3D215CD310D8AA /* Pods-NegativeTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NegativeTalk.release.xcconfig"; path = "Target Support Files/Pods-NegativeTalk/Pods-NegativeTalk.release.xcconfig"; sourceTree = "<group>"; };
+		6BFF4914AE035C271F23C58D /* Pods-NegativeTalk-NegativeTalkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NegativeTalk-NegativeTalkUITests.debug.xcconfig"; path = "Target Support Files/Pods-NegativeTalk-NegativeTalkUITests/Pods-NegativeTalk-NegativeTalkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9AD364EF28AC0ABA008A6E4E /* NegativeTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NegativeTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD364F228AC0ABA008A6E4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AD364F428AC0ABA008A6E4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9AD364F628AC0ABA008A6E4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AD364F928AC0ABA008A6E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AD364FB28AC0ABB008A6E4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AD364FE28AC0ABB008A6E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AD3650028AC0ABB008A6E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AD3650528AC0ABB008A6E4E /* NegativeTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NegativeTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD3650928AC0ABB008A6E4E /* NegativeTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegativeTalkTests.swift; sourceTree = "<group>"; };
+		9AD3650F28AC0ABB008A6E4E /* NegativeTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NegativeTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD3651328AC0ABB008A6E4E /* NegativeTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegativeTalkUITests.swift; sourceTree = "<group>"; };
+		9AD3651528AC0ABB008A6E4E /* NegativeTalkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegativeTalkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B1E6F8054B6EE1958FCC22D1 /* Pods_NegativeTalk_NegativeTalkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NegativeTalk_NegativeTalkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCEFBC287B6ECF9131A189C /* Pods-NegativeTalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NegativeTalkTests.debug.xcconfig"; path = "Target Support Files/Pods-NegativeTalkTests/Pods-NegativeTalkTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AD364EC28AC0ABA008A6E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5107F29D4515FC07654EB8E4 /* Pods_NegativeTalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD3650228AC0ABB008A6E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B576289EC9BAFD19BA6548EB /* Pods_NegativeTalkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD3650C28AC0ABB008A6E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2FB813501A4B46806B4F32 /* Pods_NegativeTalk_NegativeTalkUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75FB7800B35F85AF1C4D1658 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CA46EB50B61B28AD0331B91 /* Pods-NegativeTalk.debug.xcconfig */,
+				4AD3FC632D3D215CD310D8AA /* Pods-NegativeTalk.release.xcconfig */,
+				6BFF4914AE035C271F23C58D /* Pods-NegativeTalk-NegativeTalkUITests.debug.xcconfig */,
+				0F456F12A31D5D9754437E3D /* Pods-NegativeTalk-NegativeTalkUITests.release.xcconfig */,
+				DFCEFBC287B6ECF9131A189C /* Pods-NegativeTalkTests.debug.xcconfig */,
+				2841BF3E8690C0E00314F65F /* Pods-NegativeTalkTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8268926C4E5B9B240B822AE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B68880DB63BA7E14BBF1157 /* Pods_NegativeTalk.framework */,
+				B1E6F8054B6EE1958FCC22D1 /* Pods_NegativeTalk_NegativeTalkUITests.framework */,
+				3DAD820466EA009BDF011A34 /* Pods_NegativeTalkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AD364E628AC0ABA008A6E4E = {
+			isa = PBXGroup;
+			children = (
+				9AD364F128AC0ABA008A6E4E /* NegativeTalk */,
+				9AD3650828AC0ABB008A6E4E /* NegativeTalkTests */,
+				9AD3651228AC0ABB008A6E4E /* NegativeTalkUITests */,
+				9AD364F028AC0ABA008A6E4E /* Products */,
+				75FB7800B35F85AF1C4D1658 /* Pods */,
+				8268926C4E5B9B240B822AE8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9AD364F028AC0ABA008A6E4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AD364EF28AC0ABA008A6E4E /* NegativeTalk.app */,
+				9AD3650528AC0ABB008A6E4E /* NegativeTalkTests.xctest */,
+				9AD3650F28AC0ABB008A6E4E /* NegativeTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AD364F128AC0ABA008A6E4E /* NegativeTalk */ = {
+			isa = PBXGroup;
+			children = (
+				9AD364F228AC0ABA008A6E4E /* AppDelegate.swift */,
+				9AD364F428AC0ABA008A6E4E /* SceneDelegate.swift */,
+				9AD364F628AC0ABA008A6E4E /* ViewController.swift */,
+				9AD364F828AC0ABA008A6E4E /* Main.storyboard */,
+				9AD364FB28AC0ABB008A6E4E /* Assets.xcassets */,
+				9AD364FD28AC0ABB008A6E4E /* LaunchScreen.storyboard */,
+				9AD3650028AC0ABB008A6E4E /* Info.plist */,
+			);
+			path = NegativeTalk;
+			sourceTree = "<group>";
+		};
+		9AD3650828AC0ABB008A6E4E /* NegativeTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AD3650928AC0ABB008A6E4E /* NegativeTalkTests.swift */,
+			);
+			path = NegativeTalkTests;
+			sourceTree = "<group>";
+		};
+		9AD3651228AC0ABB008A6E4E /* NegativeTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AD3651328AC0ABB008A6E4E /* NegativeTalkUITests.swift */,
+				9AD3651528AC0ABB008A6E4E /* NegativeTalkUITestsLaunchTests.swift */,
+			);
+			path = NegativeTalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AD364EE28AC0ABA008A6E4E /* NegativeTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD3651928AC0ABB008A6E4E /* Build configuration list for PBXNativeTarget "NegativeTalk" */;
+			buildPhases = (
+				49B308DA17AE13AF89BD5A9C /* [CP] Check Pods Manifest.lock */,
+				9AD364EB28AC0ABA008A6E4E /* Sources */,
+				9AD364EC28AC0ABA008A6E4E /* Frameworks */,
+				9AD364ED28AC0ABA008A6E4E /* Resources */,
+				298BAFA34F9E249E6D7BA98C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NegativeTalk;
+			productName = NegativeTalk;
+			productReference = 9AD364EF28AC0ABA008A6E4E /* NegativeTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AD3650428AC0ABB008A6E4E /* NegativeTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD3651C28AC0ABB008A6E4E /* Build configuration list for PBXNativeTarget "NegativeTalkTests" */;
+			buildPhases = (
+				30E28B10CB98B638E5A84AEB /* [CP] Check Pods Manifest.lock */,
+				9AD3650128AC0ABB008A6E4E /* Sources */,
+				9AD3650228AC0ABB008A6E4E /* Frameworks */,
+				9AD3650328AC0ABB008A6E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AD3650728AC0ABB008A6E4E /* PBXTargetDependency */,
+			);
+			name = NegativeTalkTests;
+			productName = NegativeTalkTests;
+			productReference = 9AD3650528AC0ABB008A6E4E /* NegativeTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AD3650E28AC0ABB008A6E4E /* NegativeTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD3651F28AC0ABB008A6E4E /* Build configuration list for PBXNativeTarget "NegativeTalkUITests" */;
+			buildPhases = (
+				149657F3B98A18B06346F6FB /* [CP] Check Pods Manifest.lock */,
+				9AD3650B28AC0ABB008A6E4E /* Sources */,
+				9AD3650C28AC0ABB008A6E4E /* Frameworks */,
+				9AD3650D28AC0ABB008A6E4E /* Resources */,
+				F891FE8A07BFF00CBF2802EE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AD3651128AC0ABB008A6E4E /* PBXTargetDependency */,
+			);
+			name = NegativeTalkUITests;
+			productName = NegativeTalkUITests;
+			productReference = 9AD3650F28AC0ABB008A6E4E /* NegativeTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AD364E728AC0ABA008A6E4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					9AD364EE28AC0ABA008A6E4E = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					9AD3650428AC0ABB008A6E4E = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 9AD364EE28AC0ABA008A6E4E;
+					};
+					9AD3650E28AC0ABB008A6E4E = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 9AD364EE28AC0ABA008A6E4E;
+					};
+				};
+			};
+			buildConfigurationList = 9AD364EA28AC0ABA008A6E4E /* Build configuration list for PBXProject "NegativeTalk" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AD364E628AC0ABA008A6E4E;
+			productRefGroup = 9AD364F028AC0ABA008A6E4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AD364EE28AC0ABA008A6E4E /* NegativeTalk */,
+				9AD3650428AC0ABB008A6E4E /* NegativeTalkTests */,
+				9AD3650E28AC0ABB008A6E4E /* NegativeTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AD364ED28AC0ABA008A6E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD364FF28AC0ABB008A6E4E /* LaunchScreen.storyboard in Resources */,
+				9AD364FC28AC0ABB008A6E4E /* Assets.xcassets in Resources */,
+				9AD364FA28AC0ABA008A6E4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD3650328AC0ABB008A6E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD3650D28AC0ABB008A6E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		149657F3B98A18B06346F6FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NegativeTalk-NegativeTalkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		298BAFA34F9E249E6D7BA98C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NegativeTalk/Pods-NegativeTalk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NegativeTalk/Pods-NegativeTalk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NegativeTalk/Pods-NegativeTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30E28B10CB98B638E5A84AEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NegativeTalkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49B308DA17AE13AF89BD5A9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NegativeTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F891FE8A07BFF00CBF2802EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NegativeTalk-NegativeTalkUITests/Pods-NegativeTalk-NegativeTalkUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NegativeTalk-NegativeTalkUITests/Pods-NegativeTalk-NegativeTalkUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NegativeTalk-NegativeTalkUITests/Pods-NegativeTalk-NegativeTalkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AD364EB28AC0ABA008A6E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD364F728AC0ABA008A6E4E /* ViewController.swift in Sources */,
+				9AD364F328AC0ABA008A6E4E /* AppDelegate.swift in Sources */,
+				9AD364F528AC0ABA008A6E4E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD3650128AC0ABB008A6E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD3650A28AC0ABB008A6E4E /* NegativeTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD3650B28AC0ABB008A6E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD3651428AC0ABB008A6E4E /* NegativeTalkUITests.swift in Sources */,
+				9AD3651628AC0ABB008A6E4E /* NegativeTalkUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AD3650728AC0ABB008A6E4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AD364EE28AC0ABA008A6E4E /* NegativeTalk */;
+			targetProxy = 9AD3650628AC0ABB008A6E4E /* PBXContainerItemProxy */;
+		};
+		9AD3651128AC0ABB008A6E4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AD364EE28AC0ABA008A6E4E /* NegativeTalk */;
+			targetProxy = 9AD3651028AC0ABB008A6E4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AD364F828AC0ABA008A6E4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AD364F928AC0ABA008A6E4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AD364FD28AC0ABB008A6E4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AD364FE28AC0ABB008A6E4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AD3651728AC0ABB008A6E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AD3651828AC0ABB008A6E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AD3651A28AC0ABB008A6E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CA46EB50B61B28AD0331B91 /* Pods-NegativeTalk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NMM9F9QK67;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NegativeTalk/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.org.nagativetalk.NegativeTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AD3651B28AC0ABB008A6E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AD3FC632D3D215CD310D8AA /* Pods-NegativeTalk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NMM9F9QK67;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NegativeTalk/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.org.nagativetalk.NegativeTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9AD3651D28AC0ABB008A6E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFCEFBC287B6ECF9131A189C /* Pods-NegativeTalkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NMM9F9QK67;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.org.nagativetalk.NegativeTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NegativeTalk.app/NegativeTalk";
+			};
+			name = Debug;
+		};
+		9AD3651E28AC0ABB008A6E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2841BF3E8690C0E00314F65F /* Pods-NegativeTalkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NMM9F9QK67;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.org.nagativetalk.NegativeTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NegativeTalk.app/NegativeTalk";
+			};
+			name = Release;
+		};
+		9AD3652028AC0ABB008A6E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BFF4914AE035C271F23C58D /* Pods-NegativeTalk-NegativeTalkUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NMM9F9QK67;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.org.nagativetalk.NegativeTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NegativeTalk;
+			};
+			name = Debug;
+		};
+		9AD3652128AC0ABB008A6E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F456F12A31D5D9754437E3D /* Pods-NegativeTalk-NegativeTalkUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NMM9F9QK67;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.org.nagativetalk.NegativeTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NegativeTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AD364EA28AC0ABA008A6E4E /* Build configuration list for PBXProject "NegativeTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD3651728AC0ABB008A6E4E /* Debug */,
+				9AD3651828AC0ABB008A6E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD3651928AC0ABB008A6E4E /* Build configuration list for PBXNativeTarget "NegativeTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD3651A28AC0ABB008A6E4E /* Debug */,
+				9AD3651B28AC0ABB008A6E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD3651C28AC0ABB008A6E4E /* Build configuration list for PBXNativeTarget "NegativeTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD3651D28AC0ABB008A6E4E /* Debug */,
+				9AD3651E28AC0ABB008A6E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD3651F28AC0ABB008A6E4E /* Build configuration list for PBXNativeTarget "NegativeTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD3652028AC0ABB008A6E4E /* Debug */,
+				9AD3652128AC0ABB008A6E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AD364E728AC0ABA008A6E4E /* Project object */;
+}
